@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>React Native and JavaScript Interview Questions</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      line-height: 1.6;
+      color: #333;
+    }
+    h1 {
+      color: #007acc;
+    }
+    h2 {
+      color: #005b99;
+      border-bottom: 2px solid #007acc;
+      padding-bottom: 5px;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 15px;
+    }
+    .question {
+      font-weight: bold;
+      color: #333;
+    }
+    .answer {
+      margin-top: 5px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>React Native and JavaScript Interview Questions</h1>
+
+  <h2>Beginner-Level JavaScript and React Native Questions</h2>
+  <ol>
+    <li>
+      <span class="question">How do I set up a basic React Native project?</span>
+      <div class="answer">Use the React Native CLI or Expo CLI to initialize a new project. The CLI tools help create a starter project structure and dependencies.</div>
+    </li>
+    <li>
+      <span class="question">What are the key differences between React and React Native?</span>
+      <div class="answer">React is for web development, while React Native is used for mobile apps. React Native uses native components rather than HTML elements.</div>
+    </li>
+    <li>
+      <span class="question">How can I use hooks like <code>useState</code> and <code>useEffect</code> in React Native?</span>
+      <div class="answer"><code>useState</code> manages component state, and <code>useEffect</code> handles side effects in functional components. Both are used the same way in React and React Native.</div>
+    </li>
+    <li>
+      <span class="question">How do I navigate between screens in React Native?</span>
+      <div class="answer">Use a navigation library like React Navigation to set up screen transitions. It provides functions to navigate, go back, and pass data between screens.</div>
+    </li>
+    <li>
+      <span class="question">How do I create and use JavaScript variables and constants?</span>
+      <div class="answer">Use <code>let</code> and <code>const</code> to declare variables. <code>const</code> is for values that won’t change, and <code>let</code> allows reassignment.</div>
+    </li>
+    <li>
+      <span class="question">How do I create functions in JavaScript, and what are the differences between function expressions and declarations?</span>
+      <div class="answer">Functions can be declared using function expressions or declarations. Expressions are stored in variables, while declarations are hoisted.</div>
+    </li>
+    <li>
+      <span class="question">How can I add and style components in React Native?</span>
+      <div class="answer">Use JavaScript-based styling with the <code>StyleSheet</code> API or inline styles to add styling to components in React Native.</div>
+    </li>
+    <li>
+      <span class="question">What are JavaScript arrays, and how can I loop through them?</span>
+      <div class="answer">Arrays hold lists of data. You can loop through them using methods like <code>forEach</code>, <code>map</code>, or a <code>for</code> loop.</div>
+    </li>
+    <li>
+      <span class="question">What is the difference between <code>var</code>, <code>let</code>, and <code>const</code> in JavaScript?</span>
+      <div class="answer"><code>var</code> is function-scoped, while <code>let</code> and <code>const</code> are block-scoped. <code>const</code> is used for constants that don’t change.</div>
+    </li>
+    <li>
+      <span class="question">How do I display a list of items in React Native with <code>FlatList</code>?</span>
+      <div class="answer">Use <code>FlatList</code> to render large lists efficiently. It provides props for data, renderItem, and performance optimizations.</div>
+    </li>
+  </ol>
+
+  <h2>Intermediate-Level JavaScript and React Native Questions</h2>
+  <ol start="11">
+    <li>
+      <span class="question">How do I handle asynchronous operations with <code>async</code> and <code>await</code> in JavaScript?</span>
+      <div class="answer">Use <code>async</code> functions and <code>await</code> to handle asynchronous code in a more readable, promise-based format.</div>
+    </li>
+    <li>
+      <span class="question">What is JavaScript’s <code>this</code> keyword, and how does it behave in React Native?</span>
+      <div class="answer"><code>this</code> refers to the object executing a function. In classes, <code>this</code> is used to access class properties and methods.</div>
+    </li>
+    <li>
+      <span class="question">What are higher-order functions in JavaScript (e.g., <code>.map</code>, <code>.filter</code>), and how can they be used in React Native?</span>
+      <div class="answer">Higher-order functions take functions as arguments or return functions. <code>map</code> and <code>filter</code> help modify or filter array data.</div>
+    </li>
+    <li>
+      <span class="question">How can I handle form inputs and validation in React Native?</span>
+      <div class="answer">Use <code>TextInput</code> components for inputs and create validation functions to check the input before submission.</div>
+    </li>
+    <li>
+      <span class="question">What are Promises, and how can I use them in asynchronous code?</span>
+      <div class="answer">Promises handle asynchronous results and can be used with <code>.then</code> and <code>.catch</code> or with <code>async</code>/<code>await</code> syntax.</div>
+    </li>
+    <li>
+      <span class="question">How can I handle state management in React Native?</span>
+      <div class="answer">React Native uses React’s state with hooks like <code>useState</code> or libraries like Redux for complex state management.</div>
+    </li>
+    <li>
+      <span class="question">What is <code>ActivityIndicator</code>, and how can I show a loading spinner in React Native?</span>
+      <div class="answer">Use <code>ActivityIndicator</code> to display a loading spinner, ideal for loading states while fetching data.</div>
+    </li>
+    <li>
+      <span class="question">What is destructuring in JavaScript, and how can it simplify my code?</span>
+      <div class="answer">Destructuring allows for easy extraction of values from objects or arrays, reducing repetitive code.</div>
+    </li>
+    <li>
+      <span class="question">How can I manage state globally using Context API in React Native?</span>
+      <div class="answer">The Context API allows you to share state across components without passing props, suitable for global state management.</div>
+    </li>
+    <li>
+      <span class="question">How does destructuring work with nested objects and arrays in JavaScript?</span>
+      <div class="answer">You can destructure nested objects and arrays by using curly braces and square brackets to match the structure of the data.</div>
+    </li>
+  </ol>
+
+  <h2>Advanced-Level JavaScript and React Native Questions</h2>
+  <ol start="21">
+    <li>
+      <span class="question">How do closures work in JavaScript, and why are they useful?</span>
+      <div class="answer">Closures allow a function to access variables from an outer function even after the outer function has completed. Useful for data encapsulation.</div>
+    </li>
+    <li>
+      <span class="question">How can I optimize performance in React Native using <code>useMemo</code> and <code>useCallback</code>?</span>
+      <div class="answer">These hooks help prevent unnecessary re-renders by memoizing values and functions, improving performance in large apps.</div>
+    </li>
+    <li>
+      <span class="question">What is debouncing and throttling, and how can I implement them in React Native?</span>
+      <div class="answer">Debouncing limits how often a function can run; throttling limits function execution rate. Useful for optimizing performance in event-heavy UIs.</div>
+    </li>
+    <li>
+      <span class="question">How do I create a custom hook in React Native?</span>
+      <div class="answer">Create custom hooks by encapsulating reusable logic in a function that uses other hooks. Useful for managing shared logic across components.</div>
+    </li>
+  </ol>
+
+    <h2>Advanced-Level JavaScript and React Native Questions (Continued)</h2>
+  <ol start="25">
+    <li>
+      <span class="question">What is JavaScript’s <code>bind</code> method, and when should I use it?</span>
+      <div class="answer">The <code>bind</code> method creates a new function with <code>this</code> bound to a specified object, helpful in event handlers and callbacks.</div>
+    </li>
+    <li>
+      <span class="question">What is an IIFE (Immediately Invoked Function Expression) in JavaScript, and when is it useful?</span>
+      <div class="answer">An IIFE is a function that executes immediately after it’s defined, useful for isolating code and avoiding variable conflicts.</div>
+    </li>
+    <li>
+      <span class="question">How do I handle errors using <code>try/catch</code> and other error handling methods in JavaScript?</span>
+      <div class="answer">Use <code>try/catch</code> blocks to catch errors in synchronous code, and <code>.catch()</code> for Promise rejections in async operations.</div>
+    </li>
+    <li>
+      <span class="question">What are JavaScript modules, and how can I import/export components and functions?</span>
+      <div class="answer">Modules allow code splitting; use <code>export</code> to make functions/components reusable and <code>import</code> to bring them into other files.</div>
+    </li>
+    <li>
+      <span class="question">How can I use JavaScript’s <code>setTimeout</code> and <code>setInterval</code> effectively in React Native?</span>
+      <div class="answer">These functions manage timed actions. Use them cautiously with cleanup functions to avoid memory leaks in components.</div>
+    </li>
+    <li>
+      <span class="question">What is <code>localStorage</code>/<code>AsyncStorage</code>, and how do I manage persistent data in React Native?</span>
+      <div class="answer">Use <code>AsyncStorage</code> to store data locally in React Native. It’s useful for caching data that persists between app sessions.</div>
+    </li>
+  </ol>
+
+  <h2>Expert-Level JavaScript and React Native Questions</h2>
+  <ol start="31">
+    <li>
+      <span class="question">What are JavaScript prototypes, and how do they work under the hood?</span>
+      <div class="answer">Prototypes define methods and properties shared across instances. JavaScript uses prototypes for inheritance and sharing code efficiently.</div>
+    </li>
+    <li>
+      <span class="question">How do closures and scope work in JavaScript, especially in asynchronous code?</span>
+      <div class="answer">Closures allow functions to access outer variables, even after they return. Useful in async operations to retain state or data over time.</div>
+    </li>
+    <li>
+      <span class="question">What are <code>WeakMap</code> and <code>WeakSet</code> in JavaScript, and how are they different from <code>Map</code> and <code>Set</code>?</span>
+      <div class="answer"><code>WeakMap</code> and <code>WeakSet</code> hold weak references to objects, allowing garbage collection, unlike <code>Map</code> and <code>Set</code>.</div>
+    </li>
+    <li>
+      <span class="question">What is memoization, and how can I use it to optimize React Native components?</span>
+      <div class="answer">Memoization caches results of expensive functions to prevent redundant calculations, boosting performance in frequently rendered components.</div>
+    </li>
+    <li>
+      <span class="question">How does the JavaScript event loop work, and how does it impact asynchronous code execution?</span>
+      <div class="answer">The event loop processes tasks and microtasks, handling async operations efficiently without blocking, vital for smooth app performance.</div>
+    </li>
+    <li>
+      <span class="question">What is Fabric, and how does it enhance performance in React Native’s new architecture?</span>
+      <div class="answer">Fabric is React Native’s new rendering system that improves interaction responsiveness and speeds up bridge communication between native and JavaScript code.</div>
+    </li>
+    <li>
+      <span class="question">What are TurboModules, and how do they improve communication between JavaScript and native code?</span>
+      <div class="answer">TurboModules improve performance by reducing the bridge load, enabling more efficient data transfer between JavaScript and native layers.</div>
+    </li>
+    <li>
+      <span class="question">How can I create higher-order components (HOCs) in React Native?</span>
+      <div class="answer">HOCs are functions that take a component and return an enhanced component. They’re used to add functionality without modifying original components.</div>
+    </li>
+    <li>
+      <span class="question">What is the <code>Proxy</code> object in JavaScript, and how can I use it in my app?</span>
+      <div class="answer">The <code>Proxy</code> object allows custom behaviors for operations like property lookup and assignment, useful for validation or debugging.</div>
+    </li>
+    <li>
+      <span class="question">What are the main differences between <code>==</code> and <code>===</code> in JavaScript, and when should I use each?</span>
+      <div class="answer"><code>==</code> compares values after type conversion, while <code>===</code> compares both value and type. Prefer <code>===</code> for precise comparisons.</div>
+    </li>
+  </ol>
+
+  <h2>Testing and Deployment Questions</h2>
+  <ol start="41">
+    <li>
+      <span class="question">How can I test JavaScript functions and modules using Jest?</span>
+      <div class="answer">Jest is a popular testing framework. Write tests to validate function outputs and behavior to ensure code accuracy.</div>
+    </li>
+    <li>
+      <span class="question">What is Jest, and how do I set it up to test React Native components?</span>
+      <div class="answer">Jest provides a test runner and mocking capabilities. Configure it with <code>react-test-renderer</code> to validate React Native components.</div>
+    </li>
+    <li>
+      <span class="question">How do I create integration tests for React Native components and JavaScript modules?</span>
+      <div class="answer">Integration tests ensure components and modules work together correctly, simulating user interactions and checking data flow.</div>
+    </li>
+    <li>
+      <span class="question">How do unit tests, integration tests, and end-to-end tests differ in React Native?</span>
+      <div class="answer">Unit tests check isolated functions; integration tests check component/module interactions; end-to-end tests validate full user flows in the app.</div>
+    </li>
+    <li>
+      <span class="question">What is Detox, and how can I use it for end-to-end testing in React Native?</span>
+      <div class="answer">Detox is an end-to-end testing library for mobile apps, simulating real user interactions to validate app functionality and performance.</div>
+    </li>
+    <li>
+      <span class="question">What is CI/CD, and how do I set up a pipeline for a React Native app?</span>
+      <div class="answer">CI/CD automates build, test, and deployment processes. Use services like GitHub Actions or CircleCI to streamline React Native app releases.</div>
+    </li>
+    <li>
+      <span class="question">How can I monitor and track crashes in a React Native app?</span>
+      <div class="answer">Use tools like Sentry or Firebase Crashlytics to capture crash data, helping you identify and resolve issues efficiently.</div>
+    </li>
+    <li>
+      <span class="question">How do I handle app versioning and OTA updates with CodePush?</span>
+      <div class="answer">Use CodePush to deploy updates without app store approval, enabling instant updates for bug fixes and feature improvements.</div>
+    </li>
+    <li>
+      <span class="question">What is TypeScript, and how can it enhance code safety in React Native projects?</span>
+      <div class="answer">TypeScript adds static typing, reducing runtime errors. It helps with better code organization and tooling support.</div>
+    </li>
+    <li>
+      <span class="question">How can I manage device compatibility for both Android and iOS in my React Native app?</span>
+      <div class="answer">Use React Native’s cross-platform components and conditional code to handle platform differences, ensuring a consistent experience on both OSes.</div>
+    </li>
+  </ol>
+
+</body>
+</html>
